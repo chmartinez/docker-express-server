@@ -9,6 +9,7 @@ COPY . /server
 
 # Install any needed packages
 RUN npm install --global yarn
+RUN yarn
 
 # Make port 4000 available to the world outside this container
 EXPOSE 4000
