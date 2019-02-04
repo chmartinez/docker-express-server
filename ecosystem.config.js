@@ -12,7 +12,8 @@ module.exports = {
     env_production: {
       NODE_ENV: 'production'
     },
-    log: './server-errors.log', //combines standard and error output
+    error_file: './logs/server-error.log',
+    out_file: './logs/server-output.log',
     log_type: 'json'
   }]
 };

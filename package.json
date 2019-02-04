@@ -4,7 +4,7 @@
   "description": "Puts a ExpressJS server into a Docker Container",
   "main": "index.js",
   "scripts": {
-    "serve": "pm2 start",
+    "serve": "pm2-runtime start ecosystem.config.js",
     "test": "test"
   },
   "keywords": [
