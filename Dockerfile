@@ -19,4 +19,4 @@ ENV NAME Christian
 ENV PORT 4000
 
 # Run app.py when the container launches
-CMD ["node", "index.js"]
+CMD ["yarn", "serve"]

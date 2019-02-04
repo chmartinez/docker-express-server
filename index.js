@@ -11,4 +11,8 @@ app.get('/', (req, res)=> {
     });
 });
 
+app.get('/error', (req, res)=> {
+    throw new Error('path not implemented');
+});
+
 app.listen(PORT, () => console.log(`Listening at port ${PORT}` ));
