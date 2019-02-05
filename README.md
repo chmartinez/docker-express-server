@@ -30,7 +30,7 @@ pm2 is configured to capture all the output and error logs thrown by NodeJS and 
 
 #### Using a docker image
 
-* Get the image from `docker pull chmartinez35/docker-express-server` 
+* Get the image from `docker pull chmartinez35/docker-express-server:latest`
     * or build it using the repo and running `docker build --tag=<your-tag> .`
 * Run the image:
 ```
