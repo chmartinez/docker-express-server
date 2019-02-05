@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "pm2-runtime start ecosystem.config.js",
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
